@@ -104,7 +104,7 @@
 	"tokenColors": [
 		{
 			"settings": {
-				"foreground": "#F8F8F2"
+				"foreground": "#fff"
 			}
 		},
 		{
@@ -113,7 +113,7 @@
 				"source.groovy.embedded"
 			],
 			"settings": {
-				"foreground": "#F8F8F2"
+				"foreground": "#fff"
 			}
 		},
 		{
@@ -137,7 +137,7 @@
 				"punctuation.section.embedded"
 			],
 			"settings": {
-				"foreground": "#aaa"
+				"foreground": "#a9ffff"
 			}
 		},
 		{
@@ -265,11 +265,19 @@
 			}
 		},
 		{
-			"name": "Library class/type",
-			"scope": "support.type, support.class",
+			"name": "Library type",
+			"scope": "support.type",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#b946fc"
+				"foreground": "#ccc"
+			}
+		},
+		{
+			"name": "Library class",
+			"scope": "support.class",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#eec1fd"
 			}
 		},
 		{
